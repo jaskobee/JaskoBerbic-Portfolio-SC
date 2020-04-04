@@ -1,0 +1,129 @@
+// My Fonts
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+// Kleuren nog toevoegen
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1em;
+    background: url(../images/Background.png) center center no-repeat;
+    color: whitesmoke;
+    height: 100vh;
+}
+
+main {
+    height: 100vh;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    font-weight: 400;
+    color: black;
+}
+
+hr {
+    border: 1px solid yellow;
+    width: 10%;
+    margin: 25px 0;
+}
+
+p {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.progress {
+    font-size: 2rem;
+    margin: 25px 0;
+    display: inline-block;
+
+}
+
+.d-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.justify-center {
+    align-items: center;
+    justify-content: center;
+
+}
+
+.img-fluid {
+    width: 100%;
+    height: auto;
+
+}
+
+// Loading Animation
+
+.loader {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  border: 4px solid #575965;
+  top: 50%;
+  animation: loader 2s infinite ease;
+}
+
+.loader-inner {
+  vertical-align: top;
+  display: inline-block;
+  width: 100%;
+  background-color: #F5CC5A;
+  animation: loader-inner 2s infinite ease-in;
+}
+
+@keyframes loader {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(180deg);
+  }
+
+  50% {
+    transform: rotate(180deg);
+  }
+
+  75% {
+    transform: rotate(360deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes loader-inner {
+  0% {
+    height: 0%;
+  }
+
+  25% {
+    height: 0%;
+  }
+
+  50% {
+    height: 100%;
+  }
+
+  75% {
+    height: 100%;
+  }
+
+  100% {
+    height: 0%;
+  }
+}
