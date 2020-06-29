@@ -1,6 +1,7 @@
 // My Fonts
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
 
 // Kleuren nog toevoegen
 
@@ -64,7 +65,22 @@ p {
 
 }
 
-// Loading Animation
+// ------------------------------------------------------------------ Socials -----------------------------------------------------------------------------
+.socials i {
+  font-size: 3em;
+  color: whitesmoke;
+  text-align: center;
+  margin: 0.4em;
+  &:hover {
+    color: #f5cc5a;
+  }
+}
+
+.socials {
+  justify-content: center;
+  flex-direction: row;
+}
+// ------------------------------------------------------------------ Loading Animation  -----------------------------------------------------------------------------
 
 .loader {
   display: inline-block;
